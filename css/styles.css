@@ -687,6 +687,62 @@ color: var(--title-dark-theme-color);
     color: #212121;
     margin-bottom: 30px;
 }
-.modal-form-option-label
-.modal-form-btn
+.modal-form-input-wrapper {
+    position: relative;
+    margin-bottom: 28px;
+}
+.modal-form-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+.modal-form-imput,
+.modal-form-messege {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    border: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    color: #757575;
+}
+.modal-form-imput {
+    height: 40px;
+}
+.modal-form-messege {
+    height: 120px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.modal-form-checkbox {
+    
+}
+.modal-form-option-label {
+    margin-bottom: 30px;
+}
+.modal-form-btn {
+    width: 200px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--accent-color);
+}
     

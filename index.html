@@ -362,16 +362,20 @@
             <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
             <div class="modal-form-input-wrapper">
                 <input type="text" name="user-name" id="user-modal-name" class="modal-form-imput">
-                <label class="modal-form-label" for="user-modal-name"></label>
+                <label class="modal-form-label" for="user-modal-name">Имя</label>
             </div>
-            
-            <input type="tel" name="user-tel" class="modal-form-imput">
-            <input type="email" name="user-email" class="modal-form-imput">
-            <textarea name="user-messege" class="modal-form-messege"></textarea>
+            <div class="modal-form-input-wrapper">
+                <input type="tel" name="user-tel" id="user-modal-tel" class="modal-form-imput">
+                <label class="modal-form-label" for="user-modal-tel">Телефон</label>
+            </div>
+            <div class="modal-form-input-wrapper">
+                <input type="email" name="user-email" id="user-modal-email" class="modal-form-imput">
+                <label class="modal-form-label" for="user-modal-email">Почта</label>
+            </div>
+            <textarea name="user-messege" class="modal-form-messege" placeholder="Комментарий"></textarea>
             <label class="modal-form-option-label">
                 <input type="checkbox" name="contract" value="accept-contract" class="modal-form-checkbox">
                 <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю<a href="#">Условия договора</a></span>
-
             </label> 
             <button type="submit" class="modal-form-btn">Отправить</button>  
         </form>
