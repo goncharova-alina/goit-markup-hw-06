@@ -281,7 +281,7 @@
                     </li>
                     <li class="our-client-list-item">
                         
-                        <a class="our-client-list-item-link link" href=""  aria-label="Логотип компании5">
+                        <a class="our-client-list-item-link link" href="" aria-label="Логотип компании5">
                             <svg class="our-client-list-item-link-svg" width="79" height="47">
                                 <use class="" href="./images/sprite.svg#icon-logo-5"></use>
                             </svg>
@@ -289,7 +289,7 @@
                     </li>
                     <li class="our-client-list-item">
                          
-                        <a class="our-client-list-item-link link" href=""  aria-label="Логотип компании6">
+                        <a class="our-client-list-item-link link" href="" aria-label="Логотип компании6">
                             <svg class="our-client-list-item-link-svg" width="88" height="45">
                                 <use class="" href="./images/sprite.svg#icon-logo-6"></use>
                             </svg>
@@ -361,20 +361,30 @@
         <form action="#" class="modal-form">
             <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
             <div class="modal-form-input-wrapper">
-                <input type="text" name="user-name" id="user-modal-name" class="modal-form-imput">
+                <input type="text" name="user-name" id="user-modal-name" class="modal-form-input" placeholder=" ">
                 <label class="modal-form-label" for="user-modal-name">Имя</label>
+                <svg class="modal-form-svg" width="12" height="12">
+                    <use href="./images/sprite.svg#icon-Vector-name"></use>
+                </svg>
             </div>
             <div class="modal-form-input-wrapper">
-                <input type="tel" name="user-tel" id="user-modal-tel" class="modal-form-imput">
+                <input type="tel" name="user-tel" id="user-modal-tel" class="modal-form-input" placeholder=" ">
                 <label class="modal-form-label" for="user-modal-tel">Телефон</label>
+                <svg class="modal-form-svg" width="13" height="13">
+                    <use href="./images/sprite.svg#icon-Vector-tel"></use>
+                </svg>
             </div>
             <div class="modal-form-input-wrapper">
-                <input type="email" name="user-email" id="user-modal-email" class="modal-form-imput">
+                <input type="email" name="user-email" id="user-modal-email" class="modal-form-input" placeholder=" ">
                 <label class="modal-form-label" for="user-modal-email">Почта</label>
+                <svg class="modal-form-svg" width="15" height="12">
+                    <use href="./images/sprite.svg#icon-Vector-email"></use>
+                </svg>
             </div>
             <textarea name="user-messege" class="modal-form-messege" placeholder="Комментарий"></textarea>
             <label class="modal-form-option-label">
                 <input type="checkbox" name="contract" value="accept-contract" class="modal-form-checkbox">
+                <span class="modal-form-custom-checkbox"></span>
                 <span class="modal-form-option-span">Соглашаюсь с рассылкой и принимаю<a href="#">Условия договора</a></span>
             </label> 
             <button type="submit" class="modal-form-btn">Отправить</button>  
